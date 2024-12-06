@@ -1,24 +1,27 @@
-[project]
+[tool.poetry]
 name = "ainojya"
 description = "Nojya loli nano jya!"
 version = "0.0.1"
-authors = [{ name = "KIKUKOU", email = "baseballsoul.no3@gmail.com" }]
+authors = ["KIKUKOU baseballsoul.no3@gmail.com"]
 readme = "README.md"
+license = "LICENSE"
 keywords = ["ai", "chat", "discord", "live2d", "youtube"]
 classifiers = ["Programming Language :: Python :: 3.12"]
-dependencies = ["langchain", "langchain-community"]
-requires-python = ">= 3.12"
-license = { file = "LICENSE" }
 
-[project.optional-dependencies]
-dev = ["ruff", "pytest", "pytest-cov", "pytest-asyncio"]
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "*"
+langchain-community = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
 
 [build-system]
 requires = ["wheel", "setuptools"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-package-dir = { "" = "src" }
 
 [tool.ruff]
 line-length = 119
