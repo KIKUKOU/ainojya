@@ -2,7 +2,7 @@
 name = "ainojya"
 description = "Nojya loli nano jya!"
 version = "0.0.1"
-authors = ["KIKUKOU baseballsoul.no3@gmail.com"]
+authors = ["KIKUKOU <baseballsoul.no3@gmail.com>"]
 readme = "README.md"
 license = "LICENSE"
 keywords = ["ai", "chat", "discord", "live2d", "youtube"]
