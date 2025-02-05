@@ -1,0 +1,3 @@
+"""
+ainojya init.
+"""
