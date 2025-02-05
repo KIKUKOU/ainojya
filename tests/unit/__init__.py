@@ -1,0 +1,3 @@
+"""
+ainojya unit test init.
+"""
